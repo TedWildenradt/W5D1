@@ -1,0 +1,28 @@
+.news-bullets {
+  list-style: disc;
+  position: relative;
+  left: 15px;
+}
+.left-news-title {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.headline:hover {
+  text-decoration: underline;
+}
+.comment-link {
+    color: $blue;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.journalist {
+  color: $gray;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+

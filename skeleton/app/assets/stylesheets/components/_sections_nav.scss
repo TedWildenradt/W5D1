@@ -1,0 +1,22 @@
+.sectionals {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  border-bottom: 1px solid $light-gray;
+}
+
+.ul-items {
+  display: flex;
+}
+
+.sectionals ul li {
+  margin: 10px;  
+}
+
+.sectionals a:hover {
+  text-decoration: underline;
+}
+
+.sectionals > ul > li:last-child {
+  text-transform: uppercase;
+}

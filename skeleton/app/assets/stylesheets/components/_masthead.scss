@@ -4,6 +4,11 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+  border-top: 1px solid $light-gray;
+}
+
+.masthead a:hover {
+  text-decoration: underline;
 }
 
 .language-nav {
@@ -25,6 +30,10 @@
 	color: $dark-gray;
 }
 
+.language-nav > ul > li:first-child {
+  font-weight: 700;
+}
+
 .language-nav ul {
 	display: flex;
 }
@@ -44,7 +53,13 @@
 
 .masthead-links li {
 	margin-left: 10px;
+  padding-right: 10px;
+  list-style: none;
 	border-right: 1px solid $light-gray;
+}
+
+.masthead-links li:last-child{
+  border-right: none;
 }
 
 .masthead-links button {
